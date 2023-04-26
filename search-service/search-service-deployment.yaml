@@ -1,0 +1,101 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nagp-amcart-namespace
+  
+---
+
+apiVersion: v1
+kind: Service #Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. Expose the service to the public with an Ingress
+metadata:
+    name: backend-search-service
+    namespace: nagp-amcart-namespace
+spec:
+    type: LoadBalancer
+    selector: #Route service traffic to pods with label keys and values matching this selector.
+        app: backend-search
+    ports:
+    - port: 8081 #The port that will be exposed by this service.
+      targetPort: 8081 #Number or name of the port to access on the pods targeted by the service
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-search-config
+  namespace: nagp-amcart-namespace
+data:
+  ELASTICSEARCH_HOSTNAME: elastic-search-deployment-73327f.es.us-central1.gcp.cloud.es.io
+  ELASTICSEARCH_PORT: "-1"
+  ELASTICSEARCH_USERNAME: elastic
+  ELASTICSEARCH_PASSWORD: moFgHM4wUIXFafzaSRGrpVaK
+  ALLOWED-ORIGINS: http://35.192.135.133
+  PRODUCT_INDEX_DATA_LOC: ./ProductData1
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: backend-search-secret
+  namespace: nagp-amcart-namespace
+type: Opaque
+data:
+  ELASTICSEARCH_PASSWORD: moFgHM4wUIXFafzaSRGrpVaK
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecom-backend-search-deployment
+  namespace: nagp-amcart-namespace
+spec:
+  selector:
+    matchLabels:
+      app: backend-search
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: backend-search
+    spec:
+      containers:
+        - name: backend-search
+          image: gcr.io/ecom-case-study/search-service-image:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081
+          env:
+            - name: ELASTICSEARCH_HOSTNAME
+              valueFrom:
+                configMapKeyRef:
+                  key: ELASTICSEARCH_HOSTNAME
+                  name: backend-search-config
+            - name: ELASTICSEARCH_PORT
+              valueFrom:
+                configMapKeyRef:
+                  key: ELASTICSEARCH_PORT
+                  name: backend-search-config
+            - name: ELASTICSEARCH_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  key: ELASTICSEARCH_USERNAME
+                  name: backend-search-config
+            - name: ELASTICSEARCH_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: ELASTICSEARCH_PASSWORD
+                  name: backend-search-config
+            - name: ALLOWED-ORIGINS
+              valueFrom:
+                configMapKeyRef:
+                  key: ALLOWED-ORIGINS
+                  name: backend-search-config
+            - name: PRODUCT_INDEX_DATA_LOC
+              valueFrom:
+                configMapKeyRef:
+                  key: PRODUCT_INDEX_DATA_LOC
+                  name: backend-search-config
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8081

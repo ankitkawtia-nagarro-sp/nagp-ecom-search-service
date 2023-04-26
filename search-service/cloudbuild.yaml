@@ -1,0 +1,18 @@
+steps:
+- name: 'gcr.io/cloud-builders/mvn'
+  args: [ 'install' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/ecom-case-study/search-service-image:v1', '.' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/ecom-case-study/search-service-image:v1']
+- name: 'gcr.io/cloud-builders/gke-deploy:stable'
+  args:
+  - run
+  - --filename=./search-service-deployment.yaml
+  - --image=gcr.io/ecom-case-study/search-service-image:v1
+  - --location=us-central1-a
+  - --cluster=amcartecom
+timeout: 660s
+tags: ['mytag1', 'mytag2']
+images:
+- 'gcr.io/ecom-case-study/search-service-image:v1'

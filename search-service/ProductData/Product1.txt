@@ -1,0 +1,72 @@
+{
+	"product_id" : "1",
+	"title": "Levi's Dark Blue Regular Fit T-Shirt",
+	"description": "Staying true to its classic style and sporty profile, this dark blue polo T-shirt from Levis is a voguish casual wear for modern men",
+	"category": "Men/Clothing/T-Shirts",
+	"brand": "Levi's",
+	"status": "ACTIVE",
+	"imgs" : [{
+			"img": {"height": "1900cm","width" : "1900cm",
+"src" : "https://imgs.mcart.com/image/prod_967112812"}
+		},
+		{"img": {"height": "1900cm","width" : "1900cm",
+"src" : "https://imgs.mcart.com/image/prod_945877912"
+		}
+		},
+		{	"img": {"height": "1900cm","width" : "1900cm",
+"src" : "https://imgs.mcart.com/image/prod_945878012"
+	  }
+		}
+	],
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "T-Shirt"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "MAterial","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "MAchine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "999",
+		"sale_price": "699",
+		"discount" : "300"
+	},
+	"product_facets": [
+		{ "tags": ["Men","Clothing","T-shirts","tshirt"]},
+		{ "brand": ["Levi's"]},
+		{ "colors": ["Black","Blue","White"]},
+		{ "sizes": [38,40,42,44]}
+	],
+	"colors": [
+		{"Black":[	{"size":"39","skuid":"05497884001","stock":25,"on_discount":true},
+					{"size":"42","skuid":"05497884004","stock":25,"on_discount":false},
+					{"size":"44","skuid":"05497884005","stock":25,"on_discount":true}
+		]},
+		{"Blue":[	{"size":"39","skuid":"05497885001","stock":25,"on_discount":true},
+					{"size":"42","skuid":"05497885004","stock":25,"on_discount":true},
+					{"size":"44","skuid":"05497885005","stock":25,"on_discount":true}
+		]},
+		{"White":[	{"size":"39","skuid":"05497886001","stock":25,"on_discount":false},
+					{"size":"42","skuid":"05497886004","stock":25,"on_discount":false},
+					{"size":"44","skuid":"05497886005","stock":25,"on_discount":false}
+		]}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"product_id" : "WIWKS10010",
+	"name": "GoSriKi Women Kurta with Palazzo & Dupatta",
+	"description": "GoSriKi Women Kurta with Palazzo & Dupatta",
+	"category": "Women/IndianWear/Kurtas&Suits",
+	"brand": "GoSriKi",
+	"status": "ACTIVE",
+	"imgs" : [
+		{
+			"height": "600cm",
+			"width" : "376cm",
+			"src" : "https://m.media-amazon.com/images/I/61XZ65kmpzL._AC_UL600_FMwebp_QL65_.jpg"
+		},	
+		{
+			"height": "1440cm",
+			"width" : "1080cm",
+			"src" : "https://m.media-amazon.com/images/I/61F9USn1ToL._UL1500_.jpg"
+		},
+		{
+			"height": "50cm",
+			"width" : "38cm",
+			"src" : "https://m.media-amazon.com/images/I/41yx2eECDCL._SR38,50_.jpg"
+		}
+	], 
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "Dupatta"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "Material","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "Machine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "2599",
+		"sale_price": "659",
+		"discount" : "300"
+	},
+	"product_facets": [
+		{ 	"facet_name":  "tags",
+			"facet_value": ["Women","Indian Wear","Dupattas","Suits"]
+		},
+		{ 
+			"facet_name":  "brand",
+			"facet_value": ["GoSriKi"]
+		},
+		{ 
+			"facet_name": "colors",
+			"facet_value": ["Green","Beige"]
+		},
+		{ 	"facet_name":  "sizes",
+			"facet_value": ["S","M","L","XXL"]
+		}
+	]
+}

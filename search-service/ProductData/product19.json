@@ -1,0 +1,88 @@
+{
+	"product_id" : "MCT110",
+	"name": "Solid Men Round Neck T-Shirt",
+	"description": "Madfrog T-Shirt makes you a prefect Man. Premium quality knitted cotton t-shirt makes you feel more easier and comfort. amazing designer collections makes you look smarter.",
+	"category": "Men/Clothing/T-Shirts",
+	"brand": "Madfrog",
+	"status": "ACTIVE",
+	"imgs" : [
+		{
+			"height": "600cm",
+			"width" : "258cm",
+			"src" : "https://m.media-amazon.com/images/I/51Ek+P2k3CL._AC_UL600_FMwebp_QL65_.jpg"
+		},	
+		{
+			"height": "1200cm",
+			"width" : "1200cm",
+			"src" : "https://m.media-amazon.com/images/I/51Ek+P2k3CL._UX679_.jpg"
+		},
+		{
+			"height": "50cm",
+			"width" : "38cm",
+			"src" : "https://m.media-amazon.com/images/I/31M7rfPgIRL._SR38,50_.jpg"
+		}
+	], 
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "T-Shirt"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "Material","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "Machine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "999",
+		"sale_price": "299",
+		"discount" : "700"
+	},
+	"product_facets": [
+		{ 	"facet_name":  "tags",
+			"facet_value": ["Men","Clothing","T-shirts","tshirt"]
+		},
+		{ 
+			"facet_name":  "brand",
+			"facet_value": ["Madfrog"]
+		},
+		{ 
+			"facet_name": "colors",
+			"facet_value": ["Black","Blue","White"]
+		},
+		{ 	"facet_name":  "sizes",
+			"facet_value": ["38","40","42","44"]
+		}
+	],
+	"variants": [{
+		"colors": [
+			{"black":[{"size":"39","skuid":"MCT110_col_black_39","stock":25,"on_discount":true},
+						{"size":"42","skuid":"MCT110_col_black_42","stock":25,"on_discount":false},
+						{"size":"44","skuid":"MCT110_col_black_44","stock":25,"on_discount":true}]
+			},
+			{"blue":[{"size":"39","skuid":"MCT110_col_blue_39","stock":25,"on_discount":true},
+					{"size":"42","skuid":"MCT110_col_blue_42","stock":25,"on_discount":true},
+					{"size":"44","skuid":"MCT110_col_blue_44","stock":25,"on_discount":true}]
+			},
+			{"white":[{"size":"39","skuid":"MCT110_col_white_39","stock":25,"on_discount":false},
+					{"size":"42","skuid":"MCT110_col_white_42","stock":25,"on_discount":false},
+					{"size":"44","skuid":"MCT110_col_white_44","stock":25,"on_discount":false}]
+			}
+		]
+	}]
+}

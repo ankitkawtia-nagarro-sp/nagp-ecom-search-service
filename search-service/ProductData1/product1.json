@@ -1,0 +1,89 @@
+{
+	"product_id" : "MCT101",
+	"name": "Levi's Dark Blue Regular Fit T-Shirt",
+	"description": "Staying true to its classic style and sporty profile, this dark blue polo T-shirt from Levis is a voguish casual wear for modern men",
+	"category": "Men/Clothing/T-Shirts",
+	"brand": "Levi's",
+	"status": "ACTIVE",
+	"imgs" : [
+		{
+			"height": "600cm",
+			"width" : "258cm",
+			"src" : "https://m.media-amazon.com/images/I/51RB03BZR4L._AC_UL600_FMwebp_QL65_.jpg"
+		},	
+		{
+			"height": "1200cm",
+			"width" : "1200cm",
+			"src" : "https://m.media-amazon.com/images/I/51RB03BZR4L._UL1200_.jpg"
+		},
+		{
+			"height": "50cm",
+			"width" : "38cm",
+			"src" : "https://m.media-amazon.com/images/I/319DFawm+fL._SR38,50_.jpg"
+		}
+	], 
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "T-Shirt"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "Material","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "Machine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "999",
+		"sale_price": "699",
+		"discount" : "300"
+	},
+	"product_facets": [
+		{ 	"facet_name":  "tags",
+			"facet_value": ["Men","Clothing","T-shirts","tshirt"]
+		},
+		{ 
+			"facet_name":  "brand",
+			"facet_value": ["Levi's"]
+		},
+		{ 
+			"facet_name": "colors",
+			"facet_value": ["Yellow","Blue","Cherry"]
+		},
+		{ 	"facet_name":  "sizes",
+			"facet_value": ["39","40","42","44"]
+		}
+	],
+	"variants": [{
+		"colors": [
+			{"Blue":[{"size":"39","skuid":"MCT101_blue_39","stock":25,"on_discount":true},
+					 {"size":"40","skuid":"MCT101_blue_40","stock":25,"on_discount":false},
+					{"size":"42","skuid":"MCT101_blue_42","stock":25,"on_discount":true},
+					{"size":"44","skuid":"MCT101_blue_44","stock":25,"on_discount":true}]
+			},			
+			{"Yellow":[{"size":"39","skuid":"MCT101_yellow_39","stock":25,"on_discount":true},
+						{"size":"40","skuid":"MCT101_yellow_40","stock":25,"on_discount":false},
+						{"size":"42","skuid":"MCT101_yellow_42","stock":25,"on_discount":true}]
+			},
+			{"Cherry":[{"size":"39","skuid":"MCT101_cherry_39","stock":25,"on_discount":false},
+					{"size":"42","skuid":"MCT101_cherry_42","stock":25,"on_discount":false},
+					{"size":"44","skuid":"MCT101_cherry_44","stock":25,"on_discount":false}]
+			}
+		]
+	}]
+}

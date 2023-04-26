@@ -1,0 +1,72 @@
+{
+	"product_id" : "WIWKS10005",
+	"name": "KLOSIA Women Block Printed Kurta Set with Dupatta",
+	"description": "Klosia focuses on curating outfits with materials that are not just rich-looking, but also provide the utmost comfort to the one who wears them. The much-awaited women-only brand has received numerous accolades from its valued customers to date. Established in Surat, this ready-to-wear brand has come to be synonymous with versatile yet powerful casual wear for women. Known for the use of experimental textiles, vibrant prints, and detailed craftsmanship, Klosia has inspired various brands in India, while constantly evolving and expanding the product line and ruling the hearts of loyal customers.",
+	"category": "Women/IndianWear/Kurtas&Suits",
+	"brand": "KLOSIA",
+	"status": "ACTIVE",
+	"imgs" : [
+		{
+			"height": "600cm",
+			"width" : "376cm",
+			"src" : "https://m.media-amazon.com/images/I/710aYELx7uL._AC_UL600_FMwebp_QL65_.jpg"
+		},	
+		{
+			"height": "1440cm",
+			"width" : "1080cm",
+			"src" : "https://m.media-amazon.com/images/I/710aYELx7uL._UL1500_.jpg"
+		},
+		{
+			"height": "50cm",
+			"width" : "38cm",
+			"src" : "https://m.media-amazon.com/images/I/411rToePsXL._SR38,50_.jpg"
+		}
+	], 
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "Dupatta"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "Material","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "Machine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "2999",
+		"sale_price": "699",
+		"discount" : "300"
+	},
+	"product_facets": [
+		{ 	"facet_name":  "tags",
+			"facet_value": ["Women","Indian Wear","Dupattas","Suits"]
+		},
+		{ 
+			"facet_name":  "brand",
+			"facet_value": ["KLOSIA"]
+		},
+		{ 
+			"facet_name": "colors",
+			"facet_value": ["Pista","Baby Pink","Beige"]
+		},
+		{ 	"facet_name":  "sizes",
+			"facet_value": ["S","M","L","XXL"]
+		}
+	]
+}

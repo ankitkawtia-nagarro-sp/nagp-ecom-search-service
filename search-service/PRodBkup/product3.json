@@ -1,0 +1,89 @@
+{
+	"product_id" : "WIWKS10002",
+	"name": "Janasya Women's Poly Crepe Salwar Suit Dupatta",
+	"description": "Be the cynosure of all eyes by wearing narrow pant kurta set with dupatta by Janasya. Kurta and pant crafted from poly crepe fabric and solid dupatta crafted from georgette fabric, it has floral print all over with collared neck and three quarter sleeves. This black color set comes with contrasting beige dupatta which has gota pata detailng on hems. Pair it up jhumkas and bracelet to stand out from crowd.",
+	"category": "Women/IndianWear/Kurtas&Suits",
+	"brand": "Janasya",
+	"status": "ACTIVE",
+	"imgs" : [
+		{
+			"height": "600cm",
+			"width" : "376cm",
+			"src" : "https://m.media-amazon.com/images/I/71wQ3t7L2xL._AC_UL600_FMwebp_QL65_.jpg"
+		},	
+		{
+			"height": "1440cm",
+			"width" : "1080cm",
+			"src" : "https://m.media-amazon.com/images/I/71wQ3t7L2xL._UL1500_.jpg"
+		},
+		{
+			"height": "50cm",
+			"width" : "38cm",
+			"src" : "https://m.media-amazon.com/images/I/41o5XyyVdtL._SR38,50_.jpg"
+		}
+	], 
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "Dupatta"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "Material","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "Machine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "3299",
+		"sale_price": "838",
+		"discount" : "2461"
+	},
+	"product_facets": [
+		{ 	"facet_name":  "tags",
+			"facet_value": ["Women","Indian Wear","Dupattas","Suits"]
+		},
+		{ 
+			"facet_name":  "brand",
+			"facet_value": ["Janasya"]
+		},
+		{ 
+			"facet_name": "colors",
+			"facet_value": ["Yellow","Blue","Cherry"]
+		},
+		{ 	"facet_name":  "sizes",
+			"facet_value": ["S","M","L","XXL"]
+		}
+	],
+	"variants": [{
+		"colors": [
+			{"Blue":[{"size":"S","skuid":"WIWKS10002_blue_S","stock":25,"on_discount":true},
+					 {"size":"M","skuid":"WIWKS10002_blue_M","stock":25,"on_discount":false},
+					{"size":"L","skuid":"WIWKS10002_blue_L","stock":25,"on_discount":true},
+					{"size":"XXL","skuid":"WIWKS10002_blue_XXL","stock":25,"on_discount":true}]
+			},
+			{"Yellow":[{"size":"S","skuid":"WIWKS10002_yellow_S","stock":25,"on_discount":true},
+						{"size":"M","skuid":"WIWKS10002_yellow_M","stock":25,"on_discount":false},
+						{"size":"L","skuid":"WIWKS10002_yellow_L","stock":25,"on_discount":true}]
+			},
+			{"Cherry":[{"size":"M","skuid":"WIWKS10002_cherry_M","stock":25,"on_discount":false},
+					{"size":"L","skuid":"WIWKS10002_cherry_L","stock":25,"on_discount":false},
+					{"size":"XXL","skuid":"WIWKS10002_cherry_XXL","stock":25,"on_discount":false}]
+			}
+		]
+	}]
+}

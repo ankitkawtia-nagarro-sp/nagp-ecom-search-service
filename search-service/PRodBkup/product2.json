@@ -1,0 +1,89 @@
+{
+	"product_id" : "WIWKS10001",
+	"name": "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant & Dupatta (Authentic)",
+	"description": "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant & Dupatta (Authentic Beige_5XL_Beige_XXXXX-Large)",
+	"category": "Women/IndianWear/Kurtas&Suits",
+	"brand": "ANNI DESIGNER",
+	"status": "ACTIVE",
+	"imgs" : [
+		{
+			"height": "600cm",
+			"width" : "376cm",
+			"src" : "https://m.media-amazon.com/images/I/61XZ65kmpzL._AC_UL600_FMwebp_QL65_.jpg"
+		},	
+		{
+			"height": "1440cm",
+			"width" : "1080cm",
+			"src" : "https://m.media-amazon.com/images/I/61XZ65kmpzL._UL1440_.jpg"
+		},
+		{
+			"height": "50cm",
+			"width" : "38cm",
+			"src" : "https://m.media-amazon.com/images/I/41LNeSU8JyL._SR38,50_.jpg"
+		}
+	], 
+	"dimensions": {
+		"unit" : "cm",
+		"length": "37",
+		"width" : "24",
+		"height" : "1.5"
+	},
+	"weight" : "230g",
+	"qty" : "1",
+	"attrs": [	{"name": "Style","value" : "Dupatta"},
+			{"name": "Neck style","value" : "State"},
+			{"name": "Material","value" : "Cotton"},
+			{"name": "Fit","value" : "Regular"},
+			{"name": "Pattern","value" : "Solid"},
+			{"name": "Care Instructions","value" : "Machine Wash"},
+			{"name": "Country of Origin","value" : "India"}
+	],
+	"merchant_info": {
+		"id": "123-Etail-345",
+		"name": "Etail Pvt.Ltd",
+		"address": "XYZ street, Near AB Road",
+		"city":"Bangalore",
+		"zipcode": "560095",
+		"state" : "Karnataka",
+		"country" : "India"
+	},
+	"price_details": {
+		"currency": "INR",
+		"mrp" : "2599",
+		"sale_price": "659",
+		"discount" : "300"
+	},
+	"product_facets": [
+		{ 	"facet_name":  "tags",
+			"facet_value": ["Women","Indian Wear","Dupattas","Suits"]
+		},
+		{ 
+			"facet_name":  "brand",
+			"facet_value": ["ANNI DESIGNER"]
+		},
+		{ 
+			"facet_name": "colors",
+			"facet_value": ["Lime","Blue","Cherry"]
+		},
+		{ 	"facet_name":  "sizes",
+			"facet_value": ["S","M","L","XXL"]
+		}
+	],
+	"variants": [{
+		"colors": [
+			{"Lime":[{"size":"S","skuid":"WIWKS10001_yellow_S","stock":25,"on_discount":true},
+						{"size":"M","skuid":"WIWKS10001_yellow_M","stock":25,"on_discount":false},
+						{"size":"L","skuid":"WIWKS10001_yellow_L","stock":25,"on_discount":true}]
+			},
+			{"Blue":[{"size":"S","skuid":"WIWKS10001_blue_S","stock":25,"on_discount":true},
+					 {"size":"M","skuid":"WIWKS10001_blue_M","stock":25,"on_discount":false},
+					{"size":"L","skuid":"WIWKS10001_blue_L","stock":25,"on_discount":true},
+					{"size":"XXL","skuid":"WIWKS10001_blue_XXL","stock":25,"on_discount":true}]
+			},
+			{"Cherry":[{"size":"M","skuid":"WIWKS10001_cherry_M","stock":25,"on_discount":false},
+					{"size":"L","skuid":"WIWKS10001_cherry_L","stock":25,"on_discount":false},
+					{"size":"XXL","skuid":"WIWKS10001_cherry_XXL","stock":25,"on_discount":false}]
+			}
+		]
+	}]
+}
